@@ -61,8 +61,8 @@ export default function Krushna() {
 
   const images = [
     photo1, photo2, photo3,
-    photo4, photo5, photo6,
-    photo7, photo8, photo9,
+    photo4, photo8, photo6,
+    photo7, photo5, photo9,
   ];
 
   return (
