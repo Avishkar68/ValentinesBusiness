@@ -11,12 +11,18 @@ import JohnSub2 from './pages/john/JohnSub2';
 import Raj from './pages/raj/Raj';
 import RajSub1 from './pages/raj/RajSub1';
 import RajSub2 from './pages/raj/RajSub2';
+import Giridhar from './pages/giridhar/Giridhar';
+import Kanha from './pages/kanha/Kanha';
+import Preetam from './pages/preetam/Preetam';
 
 const App = () => {
   const routesConfig = [
     { path: 'krushna', element: <Krushna />, sub1: <KrushnaSub1 />, sub2: <KrushnaSub2 /> },
     { path: 'john', element: <John />, sub1: <JohnSub1 />, sub2: <JohnSub2 /> },
     { path: 'raj', element: <Raj />, sub1: <RajSub1 />, sub2: <RajSub2 /> },
+    { path: 'giridhar', element: <Giridhar />, sub1: <RajSub1 />, sub2: <RajSub2 /> },
+    { path: 'kanha', element: <Kanha />, sub1: <RajSub1 />, sub2: <RajSub2 /> },
+    { path: 'preetam', element: <Preetam />, sub1: <RajSub1 />, sub2: <RajSub2 /> },
   ];
 
   return (
