@@ -199,6 +199,22 @@ export default function Krushna() {
           ))}
         </div>
       </section>
+{/* -------------------- SECTION 3.5 : POEM STRIP -------------------- */}
+<section className="relative py-16 px-6 bg-gradient-to-r from-[#FDE2E4] via-[#FFF1F4] to-[#FDE2E4] overflow-hidden">
+  
+  {/* soft blur background glow */}
+  <div className="absolute inset-0 bg-pink-200 opacity-20 blur-3xl"></div>
+
+  <div className="relative max-w-5xl mx-auto text-center">
+    <p className="text-xl md:text-2xl leading-relaxed font-semibold text-[#5C3A3A] tracking-wide italic">
+      वो रात, वो बात, वो मुलाक़ात, वो कहना, वो हँसना, वो चाँद, <br />
+      वो सितारे, वो सोना, वो चाँदी, वो हीरा, वो मोती, वो सुकून, <br />
+      वो पल, वो हवा, वो कल, वो नज़रे, वो बहारें, वो शाम, वो सवेरा, <br />
+      वो अपना, वो बसेरा, वो सपना, वो सच, वो ख्वाब, वो हकीकत, <br />
+      वो मैं… <span className="text-pink-600 font-bold">हाँ तुम… हाँ तुम… हाँ तुम… हाँ तुम…</span>
+    </p>
+  </div>
+</section>
 
       {/* -------------------- SECTION 4 : VALENTINE ASK -------------------- */}
       <ValentineAsk />
