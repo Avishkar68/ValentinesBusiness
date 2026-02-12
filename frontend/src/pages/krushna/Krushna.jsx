@@ -193,7 +193,7 @@ export default function Krushna() {
               <img
                 src={img}
                 alt=""
-                className="w-full h-auto object-contain rounded-2xl"
+                className="w-full my-10 h-auto object-contain rounded-2xl"
               />
             </div>
           ))}
